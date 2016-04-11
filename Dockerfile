@@ -9,4 +9,4 @@ RUN echo "deb http://mirrors.163.com/ubuntu/ trusty main restricted universe mul
 RUN apt-get install -f apt
 RUN apt-get update && apt-get install -y git wget vim python python-dev python-pip python-matplotlib libpng12-dev default-jdk
 
-CMD [""]
+CMD ["/bin/bash"]
